@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+/* navbar styling */
+.navbar{
+    /* background-color: crimson; */
+    position: fixed;
+    width: 100%;    
+    padding: 20px 0px;
+    font-family: 'Ubuntu', sans-serif ;
+}
+
+.navbar .logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color : white;
+    padding: 5px 70px;
+}
+
+.navbar .max-width{
+    display: flex;
+    max-width: 1300px;
+
+    /* padding: 5px 70px; */
+    margin: auto;
+    /* border: 10px; */
+    /* border-width: 5px; */
+    /* border-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+    
+}   
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    /* margin-left: 20px; */
+    /* padding: 5px 50px; */
+    
+}
+
+#he{
+    padding-right: 35px;
+}
+
+.navbar .menu li a{
+    color:crimson;
+    font-size: 17px;
+    /* padding-left: 25px; */
+    font-weight: 500;
+    margin-left: 14px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s ease;
+
+}
+.navbar .menu li a:hover{
+    color:#555220;
+    
+}
+.navbar .max-width .logo span{
+color: crimson;
+}
+/* home section style */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background: url(image/image1.jpg) no-repeat center ;
+    background-position-y: 0cm;
+    background-size: 100%;
+    height: 200vh;
+    min-height: 500px;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+
+
+}
+.home .max-width{
+    position: absolute;
+    /* text-align: center; */
+    margin: 140px 0px auto 80px;
+    align-content: center;
+}
+.home .max-width .home-content .text-1{
+    font-size: 27px;
+    /* margin-right: 2px; */
+}
+.home .max-width .home-content .text-2{
+    font-size: 75px;
+    font-weight: 550;
+    margin-left: -3px;
+
+}
+.home .max-width .home-content .text-3{
+    font-size: 43px;
+    font-weight: 450;
+    margin: 5px 0;
+}
+.home .max-width .home-content .text-3 span{
+    color: crimson;
+}
